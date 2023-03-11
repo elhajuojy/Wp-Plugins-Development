@@ -6,6 +6,27 @@
 	<link rel="stylesheet" href="wp-admin/css/install.css?ver=20100228" type="text/css" />
 </head>
 <body>
+<p>
+Créez un plugin Wordpress à partir de zéro.
+
+Ce plugin devra ajouter des fonctionnalités de feedback aux pages où vous souhaitez avoir un formulaire de contact.
+
+-Le plugin doit être visible dans le menu de l'administrateur.
+
+-Le formulaire de feedback doit contenir les champs suivants:
+
+--- Note (obligatoire): de 0 à 5 --- Remarque (obligatoire): un paragraphe --- ID de post ou de page (obligatoire)
+
+-Le plugin doit enregistrer les données dans la base de données.
+
+-Permettez aux utilisateurs d'intégrer le shortcode dans les pages et les articles.
+
+-Créez un design attrayant avec CSS (utilisez un framework CSS si vous le souhaitez).
+
+Optionnel :
+
+-Affichez les réponses du formulaire dans l'espace d'administration du plugin.
+</p>
 <h1 id="logo">
 	<a href="https://wordpress.org/"><img alt="WordPress" src="wp-admin/images/wordpress-logo.png" /></a>
 </h1>
