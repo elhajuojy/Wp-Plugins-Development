@@ -9,3 +9,12 @@
  * License: GPL2
 */
 
+add_action( 'admin_menu', 'feedback_test_menu' );
+
+function feedback_test_menu() {
+    add_menu_page( 'Feedback Test', 'Feedback Test', 'manage_options', 'feedback-test', 'feedback_test_options' );
+
+
+}
+
+
